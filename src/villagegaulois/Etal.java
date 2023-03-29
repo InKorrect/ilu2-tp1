@@ -54,7 +54,7 @@ public class Etal {
 	}
 
 	public String acheterProduit(int quantiteAcheter, Gaulois acheteur) 
-			throws NullPointerException, IllegalArgumentException, IllegalStateException{
+			throws IllegalArgumentException, IllegalStateException{
 	StringBuilder chaine = new StringBuilder();
 	try {
 		chaine.append(acheteur.getNom() + " veut acheter " + quantiteAcheter

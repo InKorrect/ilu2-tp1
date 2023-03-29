@@ -1,6 +1,6 @@
 package villagegaulois;
 
-public class VillageSansChef extends NullPointerException{
+public class VillageSansChef extends Exception{
 
 	public VillageSansChef() {
 		super();
